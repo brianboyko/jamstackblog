@@ -1,8 +1,8 @@
 import * as React from "react";
-import Header from "../Meta/Header";
-import { getAllPosts } from "../../api/posts";
-import withInitialProps from "../../connectors/withInitialProps";
-import Link from "next/Link";
+// import Header from "../Meta/Header";
+// import { getAllPosts } from "../../api/posts";
+// import withInitialProps from "../../connectors/withInitialProps";
+import Link from "next/link";
 
 const PostList: React.FC<{ postList: any }> = ({ postList }) => (
   <div>
